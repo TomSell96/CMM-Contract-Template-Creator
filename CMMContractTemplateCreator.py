@@ -8,11 +8,11 @@ def addFirstSupplier():
 
     blankFile = input("Please enter the file name of the file to write the data to and the file extension e.g. AccordOralLiquid.xlsx: ")
 
-    readPath = "C:/Users/th252839/Desktop/Pandas/"+ contSchedule
+    readPath = ""+ contSchedule
 
-    writePath = "C:/Users/th252839/Desktop/Pandas/"+ blankFile
+    writePath = ""+ blankFile
 
-    supplierPath =  "C:/Users/th252839/Desktop/Pandas/supplierName.xlsx"
+    supplierPath =  ""
 
     comments = "Added via python script"
 
@@ -64,17 +64,17 @@ def addFirstSupplier():
 
     wholesalerInput = {
         
-        "AAH":"3/S;3/B;3/W",
-        "ALLI":"308/S;308/P",
-        "MAW":"18192/S;18192/MK",
-        "PHOE": "21686/W;21686/C",
-        "ALLOGA": "309",
-        "POLAR": "16791",
-        "LLOYDS": "34873",
-        "SCIEN": "3293",
-        "HEALTHNET": "63005",
-        "ALCURA": "5508",
-        "PHARMAXO": "51911"
+        "AAH":"3333/S;3333/B;3333/W",
+        "ALLI":"30228/S;30228/P",
+        "MAW":"181192/S;181192/MK",
+        "PHOE": "216686/W;216686/C",
+        "ALLOGA": "30459",
+        "POLAR": "167912341",
+        "LLOYDS": "34874567543",
+        "SCIEN": "3292345563",
+        "HEALTHNET": "63035890605",
+        "ALCURA": "550234788",
+        "PHARMAXO": "511356911"
     }
 
     for i, j in wholesalerInput.items():
